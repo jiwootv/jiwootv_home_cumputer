@@ -204,3 +204,26 @@ print('\t')
 
 challenge = 'thirty days of python'
 print(challenge.strip())
+
+challenge = 'thirty days of python'
+print(challenge.replace('python', 'coding'))
+
+challenge = 'thirty days of python'
+print(challenge.split())
+
+challenge = 'thirty days of python'
+print(challenge.title())
+
+challenge = 'Thirty Days Of Python'
+print(challenge.swapcase())
+
+challenge = 'thirty days of python'
+print(challenge.startswith('thirty'))
+challenge = '30 days of python'
+print(challenge.startswith('thirty'))
+# 이건 너무한거 아닙니까!!!!!!!
+#선생님 이건 너무하셨네요...
+#(근데 이걸 한 내가 더 신기하겠지?)
+# [저도 그래요〕
+#(쓸떼없이 안 맞는 과로([〕))
+#(진짜 이런걸 할수 있구나... 나같은 놈이... 엌 힘들었어)+
