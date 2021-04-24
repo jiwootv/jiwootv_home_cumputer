@@ -86,3 +86,121 @@ print('Day 3\t3\t5')
 print('Day 4\t3\t5')
 print('This is a back slash simbol(\\)')
 print('In every programming language iy syarts with \"Hello, World!\"')
+
+
+challenge = 'thirty days of python'
+print(challenge.capitalize())
+
+challenge = 'thirty days of python'
+print(challenge.count('y'))
+print(challenge.count('y', 7, 14))
+print(challenge.count('th'))
+
+challenge = 'thirty days of python'
+print(challenge.endswith('on'))
+print(challenge.endswith('tion'))
+
+challenge = 'thirty\tdays\tof\tpython'
+print(challenge.expandtabs())
+print(challenge.expandtabs(10))
+
+challenge = 'thirty days of python'
+print(challenge.find('y'))
+print(challenge.find('th'))
+
+frist_name = 'Asabeneh'
+last_name = 'Yetayeh'
+job = 'teacher'
+coutry = 'Finland'
+sentence = 'I am {} {}. I am a {}. I live in {}.'.format(frist_name, last_name, job, coutry)
+print(sentence)
+
+radius = 10
+pi = 3.14
+area = pi
+result = 'The area of circle with {} is {}'.format(str(radius), str(area))
+print(result)
+
+challenge = 'ThirtyDaysPython'
+print(challenge.isalnum())
+print('\t')
+
+challenge = '30DaysPython'
+print(challenge.isalnum())
+print('\t')
+
+challenge = 'thirty days of python'
+print(challenge.isalnum())
+print('\t')
+
+challenge = 'thirty days of python 2019'
+print(challenge.isalnum())
+print('\t')
+
+challenge = 'thirty days of python'
+print(challenge.isalpha())
+print('\t')
+
+num = '123'
+print(num.isalpha())
+print('\t')
+
+
+challenge = 'Thirty'
+print(challenge.isdigit())
+print('\t')
+
+challenge = '30'
+print(challenge.isdigit())
+print('\t')
+
+num = '10'
+print(num.isdecimal())
+num = '10.5'
+print('\t')
+
+print(num.isdecimal())
+print('\t')
+
+
+challenge = '30DaysOfPython'
+print(challenge.isidentifier())
+print('\t')
+
+challenge = 'thirty_days_of_python'
+print(challenge.isidentifier())
+
+print('\t')
+print('\t')
+print('\t')
+
+challenge = 'thirty days of python'
+print(challenge.islower())
+print('\t')
+challenge = 'Thirty days of python'
+print(challenge.islower())
+print('\t')
+
+
+challenge = 'thirty days of python'
+print(challenge.isupper())
+print('\t')
+challenge = 'THIRTY DAYS DF PYTHON'
+print(challenge.isupper())
+print('\t')
+
+num = '10'
+print(num.isnumeric())
+print('\t')
+print('ten'.isnumeric())
+print('\t')
+print('\t')
+print('\t')
+
+web_tech = ['HTML', 'CSS', 'JavaScript', 'React']
+result = '#, '.join(web_tech)
+print(result)
+print('\t')
+
+challenge = 'thirty days of python'
+print(challenge.strip())
